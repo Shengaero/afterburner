@@ -1,0 +1,27 @@
+root = true
+
+[*]
+charset = utf-8
+
+[**/*.{kt, gradle}]
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+end_of_line = lf
+indent_size = 4
+
+[**/*.{kts, js, json, xml}]
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+end_of_line = lf
+indent_size = 2
+
+[**/*.properties]
+insert_final_newline = false
+
+[gradlew]
+end_of_line = lf
+
+[gradlew.bat]
+end_of_line = crlf

@@ -1,0 +1,49 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+## Intellij
+.idea/**
+out/
+*.iml
+
+# commit certain IDEA files for better code consistency between collaborators
+!.idea/runConfigurations
+!.idea/runConfigurations/*.xml
+!.idea/copyright
+!.idea/copyright/*.xml
+!.idea/vcs.xml
+
+## EditorConfig
+
+# Always commit .editorconfig files
+# This is force included because they may be located in some directories that
+#are normally completely excluded (for instance .idea)
+!.editorconfig
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
